@@ -1,0 +1,22 @@
+{
+    "name": "@trung_tlb/simple_sdk",
+    "version": "0.0.0",
+    "description": "A simple SDK for testing and learning",
+    "main": "./dist/index.js",
+    "module": "./dist/index.m.js",
+    "types": "./dist/index.d.ts",
+    "homepage": "https://github.com/TLBTrung-222/simple-SDK.git#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TLBTrung-222/simple-SDK.git"
+    },
+    "scripts": {
+        "build": "rm -rf dist && microbundle --tsconfig tsconfig.json --no-sourcemap"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "microbundle": "^0.15.1"
+    }
+}
